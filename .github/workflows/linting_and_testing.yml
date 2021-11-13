@@ -2,6 +2,7 @@ name: linting_and_testing
 
 on:
   push:
+    branches-ignore: [ main ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
